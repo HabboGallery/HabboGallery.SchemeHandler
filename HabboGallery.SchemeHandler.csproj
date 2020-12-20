@@ -5,6 +5,8 @@
     <TargetFramework>net5.0</TargetFramework>
 
 	  <Product>HabboGallery.SchemeHandler</Product>
+	  <AssemblyName>HabboGallery.SchemeHandler</AssemblyName>
+	  
 	  <Company>HabboGallery</Company>
 	  <Authors>HabboGallery</Authors>
 	  
@@ -13,7 +15,6 @@
 	  <AssemblyVersion>2.0.0</AssemblyVersion>
 	  
 	  <Copyright>Copyright © HabboGallery 2020</Copyright>
-	  <PackageProjectUrl>https://habbo.gallery</PackageProjectUrl>
 	  <RepositoryUrl>https://github.com/HabboGallery/HabboGallery.SchemeHandler</RepositoryUrl>
   </PropertyGroup>
 
