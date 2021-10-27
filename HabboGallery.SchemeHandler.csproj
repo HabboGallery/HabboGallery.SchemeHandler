@@ -1,21 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
 
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+		<Product>HabboGallery.SchemeHandler</Product>
+		<AssemblyName>HabboGallery.SchemeHandler</AssemblyName>
 
-	  <Product>HabboGallery.SchemeHandler</Product>
-	  <AssemblyName>HabboGallery.SchemeHandler</AssemblyName>
-	  
-	  <Company>HabboGallery</Company>
-	  <Authors>HabboGallery</Authors>
-	  
-	  <Version>2.0.0</Version>
-	  <FileVersion>2.0.0</FileVersion>
-	  <AssemblyVersion>2.0.0</AssemblyVersion>
-	  
-	  <Copyright>Copyright © HabboGallery 2020</Copyright>
-	  <RepositoryUrl>https://github.com/HabboGallery/HabboGallery.SchemeHandler</RepositoryUrl>
-  </PropertyGroup>
+		<Company>HabboGallery</Company>
+		<Authors>HabboGallery</Authors>
 
+		<Version>2.0.1</Version>
+		<FileVersion>2.0.1</FileVersion>
+		<AssemblyVersion>2.0.1</AssemblyVersion>
+
+		<Copyright>Copyright © HabboGallery 2021</Copyright>
+		<RepositoryUrl>https://github.com/HabboGallery/HabboGallery.SchemeHandler</RepositoryUrl>
+	</PropertyGroup>
 </Project>
