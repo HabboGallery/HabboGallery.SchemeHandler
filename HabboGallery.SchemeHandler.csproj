@@ -1,7 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFramework>net7.0</TargetFramework>
+
+		<PublishAot>true</PublishAot>
+		<PublishTrimmed>true</PublishTrimmed>
+		<DebuggerSupport>false</DebuggerSupport>
+		<TrimmerRemoveSymbols>true</TrimmerRemoveSymbols>
+		<UseSystemResourceKeys>true</UseSystemResourceKeys>
+		<InvariantGlobalization>true</InvariantGlobalization>
+
+		<IlcDisableReflection>true</IlcDisableReflection>
+		<IlcOptimizationPreference>Size</IlcOptimizationPreference>
 
 		<Product>HabboGallery.SchemeHandler</Product>
 		<AssemblyName>HabboGallery.SchemeHandler</AssemblyName>
@@ -13,7 +23,13 @@
 		<FileVersion>2.0.1</FileVersion>
 		<AssemblyVersion>2.0.1</AssemblyVersion>
 
-		<Copyright>Copyright © HabboGallery 2021</Copyright>
+
+		<Copyright>Copyright © HabboGallery 2022</Copyright>
 		<RepositoryUrl>https://github.com/HabboGallery/HabboGallery.SchemeHandler</RepositoryUrl>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<RuntimeHostConfigurationOption Include="Switch.System.Reflection.Disabled.DoNotThrowForAssembly" Value="true" />
+		<RuntimeHostConfigurationOption Include="Switch.System.Reflection.Disabled.DoNotThrowForAttributes" Value="true" />
+	</ItemGroup>
 </Project>
