@@ -1,17 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
-		<TargetFramework>net7.0</TargetFramework>
+		<TargetFramework>net8.0</TargetFramework>
 
 		<PublishAot>true</PublishAot>
-		<PublishTrimmed>true</PublishTrimmed>
-		<DebuggerSupport>false</DebuggerSupport>
-		<TrimmerRemoveSymbols>true</TrimmerRemoveSymbols>
-		<UseSystemResourceKeys>true</UseSystemResourceKeys>
-		<InvariantGlobalization>true</InvariantGlobalization>
 
+		<StripSymbols>true</StripSymbols>
+		<EventSourceSupport>false</EventSourceSupport>
+		<InvariantGlobalization>true</InvariantGlobalization>
+		<EnableUnsafeUTF7Encoding>false</EnableUnsafeUTF7Encoding>
+		<HttpActivityPropagationSupport>false</HttpActivityPropagationSupport>
+
+		<IlcGenerateDgmlFile>true</IlcGenerateDgmlFile>
+		<IlcGenerateMstatFile>true</IlcGenerateMstatFile>
+		
 		<IlcDisableReflection>true</IlcDisableReflection>
 		<IlcOptimizationPreference>Size</IlcOptimizationPreference>
+		<IlcGenerateStackTraceData>false</IlcGenerateStackTraceData>
+		<IlcFoldIdenticalMethodBodies>true</IlcFoldIdenticalMethodBodies>
+		<IlcGenerateCompleteTypeMetadata>false</IlcGenerateCompleteTypeMetadata>
 
 		<Product>HabboGallery.SchemeHandler</Product>
 		<AssemblyName>HabboGallery.SchemeHandler</AssemblyName>
@@ -23,13 +30,7 @@
 		<FileVersion>2.0.1</FileVersion>
 		<AssemblyVersion>2.0.1</AssemblyVersion>
 
-
-		<Copyright>Copyright © HabboGallery 2022</Copyright>
+		<Copyright>Copyright © HabboGallery 2023</Copyright>
 		<RepositoryUrl>https://github.com/HabboGallery/HabboGallery.SchemeHandler</RepositoryUrl>
 	</PropertyGroup>
-
-	<ItemGroup>
-		<RuntimeHostConfigurationOption Include="Switch.System.Reflection.Disabled.DoNotThrowForAssembly" Value="true" />
-		<RuntimeHostConfigurationOption Include="Switch.System.Reflection.Disabled.DoNotThrowForAttributes" Value="true" />
-	</ItemGroup>
 </Project>
