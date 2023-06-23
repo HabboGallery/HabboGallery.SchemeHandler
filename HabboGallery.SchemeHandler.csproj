@@ -7,15 +7,15 @@
 
 		<StripSymbols>true</StripSymbols>
 		<EventSourceSupport>false</EventSourceSupport>
+		<OptimizationPreference>Size</OptimizationPreference>
 		<InvariantGlobalization>true</InvariantGlobalization>
 		<EnableUnsafeUTF7Encoding>false</EnableUnsafeUTF7Encoding>
 		<HttpActivityPropagationSupport>false</HttpActivityPropagationSupport>
 
 		<IlcGenerateDgmlFile>true</IlcGenerateDgmlFile>
 		<IlcGenerateMstatFile>true</IlcGenerateMstatFile>
-		
+
 		<IlcDisableReflection>true</IlcDisableReflection>
-		<IlcOptimizationPreference>Size</IlcOptimizationPreference>
 		<IlcGenerateStackTraceData>false</IlcGenerateStackTraceData>
 		<IlcFoldIdenticalMethodBodies>true</IlcFoldIdenticalMethodBodies>
 		<IlcGenerateCompleteTypeMetadata>false</IlcGenerateCompleteTypeMetadata>
